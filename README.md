@@ -1,9 +1,9 @@
 # Online-Banking-Management-System
 
-## Project Overview
+## Overview
 This is an online banking management system developed in Python. The project aims to simulate basic banking operations, including user registration, login/logout, withdrawals, deposits, and balance inquiries. Currently, the system comprises two main components: a fully functional Command-Line Interface (CLI) version and a Flask-based web version under development.
 
-**Note:** This is a work in progress, and some features may not be fully implemented or optimized.
+**Note：** This is a work in progress, and some features may not be fully implemented or optimized.
 
 ## Current Features
 
@@ -16,7 +16,7 @@ This is an online banking management system developed in Python. The project aim
 - [x] Balance Inquiry
 - [x] Developer Mode (for debugging)
 
-### Web Version (Partially Implemented)
+### Web Version ( **Partially Implemented** )
 - [x] User Registration (frontend form)
 - [x] User Login/Logout (frontend form)
 - [ ] Deposit Functionality (to be implemented)
@@ -75,15 +75,16 @@ python function.py
 - [ ] Implement unit tests and integration tests
 
 ## Known Issues
-- Web version currently only implements basic registration and login functionality
-- CLI version uses JSON file for data storage, which may pose security risks
-- Lack of proper error handling mechanisms
+- We currently implements basic registration and login functionality only in the web version.
+- It uses JSON file for data storage, which may pose security risks in the CLI version.
+- Lack of proper error handling mechanisms.
 
-## Contributing
+
+<!-- ## Contributing
 Suggestions and improvements are welcome! Feel free to open an issue or submit a pull request.
 
 ## Contact
 [Your Name] - [Your Email]
 
-Project Link: [Project GitHub/GitLab URL]
+Project Link: [Project GitHub/GitLab URL] -->
 
