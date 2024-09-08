@@ -38,7 +38,7 @@ def login():
             return redirect(url_for('home'))  # Redirect to home page
         else:
             flash("Incorrect username/password!", "danger")
-            
+     
     return render_template('auth/login.html', title="Online Banking System")  
 
 # --Register -- #
@@ -77,10 +77,10 @@ def register():
     # Form is empty... (No POST Data)
     if request.method == 'POST':
         flash("Please fill out the form!", "danger")
-        return render_template('auth/register.html', title="Register")
+        return render_template('auth/register.html', title="Online Banking System")
 
     # GET Request
-    return render_template('auth/register.html', title="Register")
+    return render_template('auth/register.html', title="Online Banking System")
 
 # Home Page
 @app.route('/')
