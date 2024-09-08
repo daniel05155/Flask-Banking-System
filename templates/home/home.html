@@ -1,0 +1,15 @@
+<!-- 繼承'home/layout.html'(要在開頭宣告) -->
+{% extends 'home/layout.html' %}
+
+<!--
+    下面的兩個block，包含"block title"和"block content",
+    代表繼承該板的HTML文件可以override的地方，
+    其餘的部份皆透過繼承直接產生，不需要任何調整。
+-->
+
+{% block title %} {{ title }} {% endblock title%}
+
+{% block content %}
+<h2>Home Page</h2>
+<p>Welcome back, {{ username }}!</p>
+{% endblock content%}

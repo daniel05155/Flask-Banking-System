@@ -1,0 +1,40 @@
+{
+  "Users": [
+    {
+      "Name": "Jason Wang",
+      "PIN": "010101",
+      "Acc_Number": 1,
+      "Acc_Balance": 2526
+    },
+    {
+      "Name": "App www",
+      "PIN": "232323",
+      "AccNumber": 2,
+      "Balance": 0
+    },
+    {
+      "Name": "Wang Lee",
+      "PIN": "123123",
+      "AccNumber": 3,
+      "Balance": 0
+    },
+    {
+      "Name": "Apple Lee",
+      "PIN": "151515",
+      "AccNumber": 4,
+      "Balance": -19
+    },
+    {
+      "Name": "QQQ HSU",
+      "PIN": "151515",
+      "AccNumber": 5,
+      "Balance": 3024
+    },
+    {
+      "Name": "Daniel Wang",
+      "PIN": "123456",
+      "AccNumber": 6,
+      "Balance": 1370
+    }
+  ]
+}
