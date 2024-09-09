@@ -9,7 +9,7 @@ app.secret_key = '1a2b3c4d5e6d7g8h9i10'  # Secret key
 # --Database connection details -- #w
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = '10051005'   # Replace ******* with  your database password.
+app.config['MYSQL_PASSWORD'] = '*******'   # Replace ******* with  your database password.
 app.config['MYSQL_DB'] = 'BankingSystem'
 
 # Intialize MySQL
