@@ -1,4 +1,4 @@
-# Banking-System-Using-Flask
+# Banking-Management-System-Using-Flask
 
 ## Overview
 This is an online banking management system developed in Python. The project aims to simulate basic banking operations, including user registration, login/logout, withdrawals, deposits, and balance inquiries. Currently, the system comprises two main components: a fully functional Command-Line Interface (CLI) version and a Flask-based web version under development.
